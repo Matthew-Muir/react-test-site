@@ -9,7 +9,7 @@ function App() {
         <p>
           Matts Portfolio Website Ver 0.0.2
         </p>
-              <br>
+              <br />
                   <p>Changes from above!</p>
         <a
           className="App-link"
