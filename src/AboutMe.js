@@ -29,8 +29,9 @@ const AboutMe = () => {
 
             <h4>Want to know more?</h4>
             <button className='cv-button'>Download My Resume</button>
-
-            <h4>Also Checkout My Projects Section Below</h4>
+            <br></br>
+            <br />
+            <h4>Checkout My Projects Section Below</h4>
 
 
 
