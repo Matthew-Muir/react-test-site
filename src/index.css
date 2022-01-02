@@ -28,17 +28,18 @@ html {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 575px) {
+
+
   .body-content {
     margin-top: 76px;
     background-color: #282c34;
-    min-height: 100vh;
     color: white;
+    
   }
 
   .nav-bar {
     width: 100%;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     position: fixed;
     top: 0;
     display: flex;
@@ -51,10 +52,14 @@ html {
   .menu-button {
     transform: scaleX(1.5);
     height: 40px;
-    font-weight: bold;
-    margin-left: 5%;
-    font-size: larger;
-    border-radius: 5px;
+  }
+
+  .cv-button {
+      height: 30px;
+      font-weight: bold;
+      margin-left: 5%;
+      font-size: medium;
+      border-radius: 5px;
   }
 
   #nav-logo {
@@ -101,4 +106,25 @@ html {
   #logoBanner {
     width: 100%;
   }
-}
+
+  .tech-icons-list {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tech-icons-list li {
+    display: inline;
+    padding: 0 7Fpx;
+  }
+
+  .tech-icon {
+    height: 35px;
+    padding: 0 7px;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+
+

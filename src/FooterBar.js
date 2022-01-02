@@ -1,6 +1,6 @@
-import home from './home.svg';
-import linkedin from './linkedin.svg';
-import github from './github.svg';
+import home from './imgs/home.svg';
+import linkedin from './imgs/linkedin.svg';
+import github from './imgs/github.svg';
 
 
 

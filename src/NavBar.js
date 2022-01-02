@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import menuButton from "./menuButton.svg";
+import menuButton from "./imgs/menuButton.svg";
 
 const NavBar = () => {
   const [ismenuPanelOpen, setIsMenuPanelOpen] = useState(false);

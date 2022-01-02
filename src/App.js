@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
 import NavBar from './NavBar';
 import FooterBar from './FooterBar';
-import blackLogoBanner from './blackLogoBanner.png';
+import blackLogoBanner from './imgs/blackLogoBanner.png';
+import AboutMe from './AboutMe';
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
 
       <div className='body-content'>
       <img id='logoBanner' src={blackLogoBanner} alt="Matt muir logo banner" />
+      <AboutMe></AboutMe>
       </div>
 
       <FooterBar></FooterBar>
