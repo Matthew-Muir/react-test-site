@@ -9,28 +9,32 @@ const NavBar = () => {
   }
   return (
     <div className="nav-bar">
-      <div className="flexContainer">
-
-      </div>
+      <div className="flexContainer"></div>
       <ul className="hamburger-menu">
-        <li>        <img
-          onClick={menuButtonPressed}
-          src={menuButton}
-          className="menu-button"
-          alt="menuButton"
-        /></li>
-      {ismenuPanelOpen && <div className="flexContainer">
-
-              <li className="hm-nav-item">
-                <a onClick={menuButtonPressed} href="#projects">Projects</a>
-              </li>
-              <li className="hm-nav-item">
-                <a onClick={menuButtonPressed} href="#about-me">About Me</a>
-              </li>
-
-      </div> }
+        <li>
+          {" "}
+          <img
+            onClick={menuButtonPressed}
+            src={menuButton}
+            className="menu-button"
+            alt="menuButton"
+          />
+        </li>
+        {ismenuPanelOpen && (
+          <div className="flexContainer">
+            <li className="hm-nav-item">
+              <a onClick={menuButtonPressed} href="#about-me">
+                About Me
+              </a>
+            </li>
+            <li className="hm-nav-item">
+              <a onClick={menuButtonPressed} href="#projects">
+                Projects
+              </a>
+            </li>
+          </div>
+        )}
       </ul>
-
     </div>
   );
 };

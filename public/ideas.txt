@@ -2,3 +2,4 @@ Provide a link to a seperate page for my resume incase they don't want to downlo
 
 When hovering over the tech icons. Have them display their alt text.
 
+Stick footer to bottom of page. Regardless if there is enough content to push it to the bottom;
