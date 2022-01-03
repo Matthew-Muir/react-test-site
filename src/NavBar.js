@@ -22,13 +22,10 @@ const NavBar = () => {
       {ismenuPanelOpen && <div className="flexContainer">
 
               <li className="hm-nav-item">
-                <a href="#">TBD 01</a>
+                <a onClick={menuButtonPressed} href="#projects">Projects</a>
               </li>
               <li className="hm-nav-item">
-                <a href="#">TBD 02</a>
-              </li>
-              <li className="hm-nav-item">
-                <a href="#">TBD 03</a>
+                <a onClick={menuButtonPressed} href="#about-me">About Me</a>
               </li>
 
       </div> }

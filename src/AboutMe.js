@@ -9,7 +9,7 @@ import react from './imgs/react.svg';
 const AboutMe = () => {
     return ( 
         <section className="about-me">
-
+            <div id="about-me"></div>
             <h4>Matt Muir, Full-Stack C# .Net Developer/Web Developer</h4>
             <p>Driven and eager for new challeneges. I'm looking for developer roles
                 that not only allow me build interesting software solutions. But be part

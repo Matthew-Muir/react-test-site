@@ -1,1 +1,4 @@
 Provide a link to a seperate page for my resume incase they don't want to download.
+
+When hovering over the tech icons. Have them display their alt text.
+
