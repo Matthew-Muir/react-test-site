@@ -4,6 +4,7 @@ import Home from "./Home";
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from "react";
 import Project from "./Project";
+import Resume from "./Resume";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
       <FooterBar></FooterBar>
     </div>

@@ -56,13 +56,20 @@ html {
   height: 30px;
 }
 
-.cv-button {
-  height: 25px;
-  font-weight: bold;
-  margin-left: 5%;
-  font-size: medium;
-  border-radius: 10px;
+.link-button {
   background-color: aliceblue;
+  border-radius: 2px;
+  padding: 2px 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.link-button:link {
+  color: black;
+}
+
+a.link-button:visited {
+  color: black;
 }
 
 #nav-logo {
@@ -71,6 +78,15 @@ html {
 
 .hm-nav-item {
   padding: 5px 0px;
+  text-decoration: none;
+}
+
+.hm-nav-item a:link {
+  color: black;
+}
+
+.hm-nav-item a:visited {
+  color: black;
 }
 
 .hm-nav-item a {

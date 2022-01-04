@@ -4,9 +4,27 @@ import menuButton from "./imgs/menuButton.svg";
 
 const NavBar = () => {
   const [ismenuPanelOpen, setIsMenuPanelOpen] = useState(false);
+
   function menuButtonPressed() {
     setIsMenuPanelOpen(!ismenuPanelOpen);
   }
+
+  function onHomePage() {
+    let url = window.location.href;
+    /* WHY? Remove first two / from url */
+    url = url.substring(10);
+
+    let urlPath = url.substring(url.indexOf('/'));
+
+    if (urlPath === "/" || urlPath.substring(0,2) === "/#") {
+      return true;
+    }
+    else {
+      return false;
+      //LEFT OFF HERE... need to implenet logic so that if on homepage show id links. Else show page links only.
+    }
+  }
+
   return (
     <div className="nav-bar">
       <div className="flexContainer"></div>

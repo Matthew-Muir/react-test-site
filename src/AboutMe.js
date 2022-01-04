@@ -10,7 +10,7 @@ const AboutMe = () => {
     return ( 
         <section className="about-me">
             <div id="about-me"></div>
-            <h4>Matt Muir, Full-Stack C# .Net Developer/Web Developer</h4>
+            <h4>Matt Muir, C# .Net Developer / Full-Stack Web Developer</h4>
             <p>Driven and eager for new challeneges. I'm looking for developer roles
                 that not only allow me build interesting software solutions. But be part
                 of a team that supports growth and creativity.
@@ -28,7 +28,7 @@ const AboutMe = () => {
             </ul>
 
             <h4>Want to know more?</h4>
-            <button className='cv-button'>Download My Resume</button>
+            <a href="/resume" className="link-button">View My Resume</a>
             <br></br>
             <br />
             <h4>Checkout My Projects Section Below</h4>
