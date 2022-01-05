@@ -10,3 +10,5 @@ Technologies used:
 Challenges:
 
 NAV bar shows site links. But if on homepage. There is a sublist of ID links within the page.
+
+Light mode dark mode button

@@ -39,7 +39,7 @@ html {
   color: white;
 }
 
-.nav-bar {
+#nav-bar {
   width: 100%;
   background-color: #f0f8ff;
   position: fixed;
@@ -47,8 +47,8 @@ html {
   display: flex;
   min-height: 40px;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .menu-button {
@@ -56,59 +56,37 @@ html {
   height: 30px;
 }
 
+div.nav-bar-links li {
+  margin-left: 15px;
+  padding: 2px 0;
+}
+
+#nav-bar ul {
+  padding-left: 15px;
+  margin: 0 0;
+}
+
 .link-button {
   background-color: aliceblue;
   border-radius: 2px;
   padding: 2px 5px;
-  text-decoration: none;
   font-weight: bold;
 }
 
-a.link-button:link {
-  color: black;
-}
-
-a.link-button:visited {
-  color: black;
-}
-
-#nav-logo {
-  height: 20px;
-}
-
-.hm-nav-item {
-  padding: 5px 0px;
+a {
   text-decoration: none;
 }
 
-.hm-nav-item a:link {
+a:link {
   color: black;
 }
 
-.hm-nav-item a:visited {
+a:visited {
   color: black;
-}
-
-.hm-nav-item a {
-  text-decoration: none;
-  font-size: large;
-  font-weight: bold;
 }
 
 li {
   list-style: none;
-}
-
-.hamburger-menu {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  margin: 0;
-  padding-left: 25px;
-  padding-top: 7px;
-  
 }
 
 .footer-button {
@@ -137,7 +115,7 @@ li {
 
 .tech-icons-list li {
   display: inline;
-  padding: 0 7fpx;
+  padding: 0 5px;
 }
 
 .tech-icon {
@@ -188,6 +166,7 @@ li {
   position: relative;
   top: -150px;
   visibility: hidden;
+  text-align: center;
 }
 
 #home {
@@ -205,6 +184,48 @@ li {
 #projects .flex-item:hover {
   color:aqua;
 
+}
+
+@media only screen and (min-width: 750px) {
+
+body {
+  background-color: #282c34;
+}
+
+#home {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#logoBanner {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+#projects {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+
+#logoBanner {
+  height: 400px;
+  width: auto;
+}
+
+  #home {
+    width: 80%;
+  }
+
+  .about-me p {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 
