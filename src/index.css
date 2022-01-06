@@ -73,7 +73,8 @@ div.nav-bar-links li {
   font-weight: bold;
 }
 
-a {
+a,
+div.flex-item a {
   text-decoration: none;
 }
 
@@ -176,12 +177,13 @@ li {
   height: 200%;
 }
 
-#projects .flex-item {
+#projects .flex-item a {
   font-style: oblique;
   padding: 0 10px;
+  color: white;
 }
 
-#projects .flex-item:hover {
+#projects .flex-item a:hover {
   color:aqua;
 
 }

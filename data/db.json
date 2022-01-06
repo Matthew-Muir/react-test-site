@@ -1,0 +1,32 @@
+{
+    "projects" : [
+        {   "id" : 1,
+            "title" : "A title!",
+            "objective" : "lorem ip sum",
+            "tech" : "code tape and bubble gum",
+            "challenges" : "I'm pretty average",
+            "github" : "link to my page!"
+        },
+        {   "id" : 2,
+            "title" : "",
+            "objective" : "",
+            "tech" : "",
+            "challenges" : "",
+            "github" : ""
+        },
+        {   "id" : 3,
+            "title" : "",
+            "objective" : "",
+            "tech" : "",
+            "challenges" : "",
+            "github" : ""
+        },
+        {   "id" : 0,
+            "title" : "",
+            "objective" : "",
+            "tech" : "",
+            "challenges" : "",
+            "github" : ""
+        }
+    ]
+}
