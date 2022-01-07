@@ -1,25 +1,39 @@
 {
     "projects" : [
         {   "id" : 1,
-            "title" : "A title!",
-            "objective" : "lorem ip sum",
-            "tech" : "code tape and bubble gum",
-            "challenges" : "I'm pretty average",
-            "github" : "link to my page!"
+            "title" : "Custom SQL Server Integration Services Tools",
+            "objective" : "Perform secure FTPS and SFTP transfers. Our vendor's API served us XML data to our database every 5 minutes. The data needed to be coerced to JSON and transferred to a brokers database. With the addition of providing custom high-level and verbose logging.",
+            "tech" : "Microsoft .NET, WinSCP, XPath, JavaScript, SQL",
+            "challenges" : "Creating an SSIS tool that can be re-used and deployed in future SSIS packages. Creating a logger that is able to handle a multitude of differnent large transfers and recognize and identify failures.",
+            "github" : "https://github.com/Matthew-Muir/FTP_Secure"
         },
         {   "id" : 2,
-            "title" : "",
-            "objective" : "",
-            "tech" : "",
-            "challenges" : "",
-            "github" : ""
+            "title" : "Air Quality Alert",
+            "objective" : "Scrap Washington Department of Ecology website air quality website. Checking the Lewis County area for hazardous air conditions. If conditions become hazardous or revert to normal. Send email notifications to field operations managers.",
+            "tech" : "Node JS, PowerShell",
+            "challenges" : "Creating a data structure that discards bad data and reacts with the appropiate safety information/advising to not only worsening air quality. But when air quality also improves.",
+            "github" : "https://github.com/Matthew-Muir/Air_Quality_Alert"
         },
         {   "id" : 3,
-            "title" : "",
-            "objective" : "",
-            "tech" : "",
-            "challenges" : "",
-            "github" : ""
+            "title" : "Multi-Volume Data Transfer",
+            "objective" : "Simultanesouly migrate data from up to four drives to a single drive.",
+            "tech" : "Microsoft .NET, Visual Basic, ",
+            "challenges" : "Total volume of data was over 1TB and consisted of hundreds of thousands of files. Had to write cross volume transfer in Visual Basic.",
+            "github" : "https://github.com/Matthew-Muir/FileTransferAcrossVolumes"
+        },
+        {   "id" : 4,
+            "title" : "NIST Date Time Retrival",
+            "objective" : "Newly generated database entries need a highly accurate UTC date time stamp. With a fail safe that can convert local time to UTC.",
+            "tech" : "Microsoft .NET",
+            "challenges" : "Creating a list of NIST APIs that servered back a response the fastest. Creating a fail safe function that wouldn't perform an inaccurate conversion during the transition of daylight savings time.",
+            "github" : "https://github.com/Matthew-Muir/PullUtcFromNIST"
+        },
+        {   "id" : 5,
+            "title" : "My Portfolio Site!",
+            "objective" : "I wanted to showcase some of the projects I've worked on as a developer. But I also saw this as a great opportunity to learn more about React, webservers, REST APIs, and AWS.",
+            "tech" : "JavaScript, HTML, CSS, React, AWS",
+            "challenges" : "Constructing and hosting a webserver. Configuring a production workflow to easily migrate updates and changes to project over-time.",
+            "github" : "https://github.com/Matthew-Muir/react-test-site"
         },
         {   "id" : 0,
             "title" : "",

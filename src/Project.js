@@ -23,16 +23,19 @@ const Project = () => {
     }, []);
 
     return ( 
-        <div>
+        <div className="body-content">
             {title && (
-            <div id="project">
+            <article id="project">
             <h1>{title}</h1>
-            <h2>{objective}</h2>
-            <h3>{tech}</h3>
-            <h4>{challenges}</h4>
-            <h5>{github}</h5>
+            <h3>Objective</h3>
+            <p>{objective}</p>
+            <h3>Technologies</h3>
+            <p>{tech}</p>
+            <h3>Challenges</h3>
+            <p>{challenges}</p>
+            <a href={github} target="_blank" rel="noreferrer">Link to Repo</a>
 
-            </div>
+            </article>
 
             )}
         </div>

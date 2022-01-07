@@ -183,9 +183,28 @@ li {
   color: white;
 }
 
-#projects .flex-item a:hover {
+#projects .flex-item a:hover,
+#project a:hover {
   color:aqua;
 
+}
+
+#project {
+  text-align: center;
+}
+article#project {
+  padding-bottom: 40px;
+}
+
+#project a {
+  text-decoration: none;
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#project h3 {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 750px) {
