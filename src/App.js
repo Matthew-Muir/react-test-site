@@ -24,19 +24,3 @@ function App() {
 }
 
 export default App;
-
-/* 
-      <div className="App">
-        <div className="body-content">
-          <NavBar></NavBar>
-          <img
-            id="logoBanner"
-            src={blackLogoBanner}
-            alt="Matt muir logo banner"
-          />
-          <AboutMe></AboutMe>
-          <Projects></Projects>
-          <FooterBar></FooterBar>
-        </div>
-      </div>
-*/

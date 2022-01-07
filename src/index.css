@@ -33,6 +33,11 @@ html {
   margin-top: 41px;
 }
 
+#resume {
+  margin-top: 65px;
+  padding-top: 2px;
+}
+
 .body-content {
   margin-top: 41px;
   background-color: #282c34;
